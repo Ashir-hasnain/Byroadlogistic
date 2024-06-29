@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+/*
+
+#F65A28
+#de302f 
+
+*/
+
+
+header {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    /* border: 2px solid  darkblue ; */
+}
+
+header .top_header {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .top_header img {
+    /* border: 2px solid  darkblue ; */
+    height: 10vh;
+    cursor: pointer;
+}
+
+header .last_header {
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+header .last_header img {
+    height: 50px;
+}
+
+header .last_header p {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+header .last_header span {
+    font-weight: bold;
+    color: #de302f;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul a li {
+    padding: 22px 25px 24px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    font-size: 13px;
+    transition: .1s;
+}
+
+
+nav ul a li:hover {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #de302f;
+    color: #de302f;
+}
+
+
+nav .nav_btn {
+    text-decoration: none;
+    color: #fff;
+    background: #F65A28;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 22px 30px;
+
+}
+
+.bg {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.637), rgb(0, 0, 0)), url("/Asset/photo-slide-1.png");
+    object-fit: cover;
+    /* padding: 250px; */
+    /* border: 2px solid rebeccapurple; */
+
+}
+
+.bg .slider-content {
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20vw;
+}
+
+.bg .slider-content h2 {
+    font-size: 3rem;
+    text-align: right;
+    color: #fff;
+}
+
+.bg .slider-content p {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.bg_btn {
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin-left: 400px;
+    background: #F65A28;
+}
+
+/* Second Divion */
+.section_pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_pad .pull_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid saddlebrown;
+    width: 100vw;
+}
+
+.section_pad img{
+    width: 50vw;
+    /* height: 40vh; */
+    object-fit: cover;
+}
+
+.section_pad .pull_right .about {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    height: 50vh;
+    text-align: left;
+    
+}
+
+.section_pad .pull_right .about h3 {
+    color: #d1d1d1;
+    font-size: 1.4rem;
+    /* text-indent: 0px; */
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section_pad .pull_right .about h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+    letter-spacing: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.section_pad .pull_right .about p{
+    font-size: 15px;
+    font-weight: 300;
+    /* margin-bottom: 10px; */
+    text-align:left;
+    line-height: 2;
+    color: #777;
+}
+
+.section_pad .pull_right .about .about_btn{
+    border: 2px solid #F65A28;
+    padding: 10px 5px;
+    text-align: center;
+    color: #F65A28;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+    align-items: center;
+    /* background-color: #F65A28; */
+
+
+}
+
+
