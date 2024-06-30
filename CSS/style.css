@@ -13,6 +13,12 @@
 
 */
 
+hr{
+    background: gainsboro;
+    border: #777;
+    width: 2px;
+}
+
 
 header {
     margin: 10px 0;
@@ -163,21 +169,23 @@ nav .nav_btn {
 
 /* Second Divion */
 .section_pad {
+    margin :80px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60vh;
 }
 
 .section_pad .pull_right {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     width: 100vw;
 }
 
-.section_pad img{
-    width: 50vw;
+.section_pad img {
+    width: 30vw;
     /* height: 40vh; */
     object-fit: cover;
 }
@@ -190,7 +198,7 @@ nav .nav_btn {
     align-items: right;
     height: 50vh;
     text-align: left;
-    
+
 }
 
 .section_pad .pull_right .about h3 {
@@ -209,30 +217,138 @@ nav .nav_btn {
     letter-spacing: 1;
     font-weight: 600;
     text-transform: uppercase;
-    
+
 }
 
-.section_pad .pull_right .about p{
+.section_pad .pull_right .about p {
     font-size: 15px;
     font-weight: 300;
     /* margin-bottom: 10px; */
-    text-align:left;
+    text-align: left;
     line-height: 2;
     color: #777;
 }
 
-.section_pad .pull_right .about .about_btn{
+.section_pad .pull_right .about .about_btn {
     border: 2px solid #F65A28;
     padding: 10px 5px;
     text-align: center;
     color: #F65A28;
+    margin-top: 30px;
     font-weight: bold;
+    cursor: pointer;
     text-transform: uppercase;
     width: 200px;
     align-items: center;
     /* background-color: #F65A28; */
-
-
+    
+    
 }
 
 
+.more-than-you {
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    height: 50vh;
+    text-align: left;
+    margin-left: 30px;
+    /* border: 2px solid #74280f; */
+}
+
+.more-than-you .section-header h1 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.more-than-you ul{
+    /* width: 20vw; */
+    /* border: 2px solid salmon; */
+    display: flex ;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+    color: #777;
+    list-style: url("/Asset/bullet.png");
+}
+.more-than-you ul li , .more-than-you p {
+    color: #777;
+    width: 30vw;
+}
+
+
+/* third Division */
+
+.third_sec{
+    width: 100vw;
+    height: 80vh;
+    background: #777;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.third_sec .section_img{
+    height: 40vh;
+    width: 40vw;
+}
+
+.third_sec .row_1{
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    width: 30vw;
+    /* padding: 0 50px; */
+    margin: 50px;
+}
+
+.third_sec .row_1 .context{
+    /* border: 2px solid salmon; */
+    width: 40vw;
+    padding: 50px;
+    text-align: left;
+}
+
+.third_sec .row_1 .context h3{
+    color: #F65A28;
+    font: 2rem;
+}
+
+.third_sec .row_1 .context h2{
+    color: #fff;
+    font: 1rem;
+    
+}
+
+.third_sec .row_1 .context p{
+    color: #fff;
+
+}
+
+.third_sec .context_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    background: #fff;
+    height: 40vh;
+    width: 40vw;
+    margin: 50px;
+    padding: 50px;
+}
+
+.third_sec .context_2 .row{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
