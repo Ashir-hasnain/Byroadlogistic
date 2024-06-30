@@ -281,14 +281,20 @@ nav .nav_btn {
 
 
 /* third Division */
-
-.third_sec{
-    width: 100vw;
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 80vh;
+    width: 100vw;
+    background: #777;
+    border: 2px solid salmon;
+}
+.third_sec{
+    /* overflow: hidden; */
+    align-items: center;
     background: #777;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 
@@ -339,7 +345,7 @@ nav .nav_btn {
     text-align: left;
     background: #fff;
     height: 40vh;
-    width: 40vw;
+    width: 40vw;    
     margin: 50px;
     padding: 50px;
 }
@@ -347,8 +353,12 @@ nav .nav_btn {
 .third_sec .context_2 .row{
     display: flex;
     /* flex-direction: column; */
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 50px;
     
+}
+
+.third_sec .context_2 .row h2{
+    padding-left: 15px;
 }
